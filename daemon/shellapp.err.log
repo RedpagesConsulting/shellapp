@@ -1,0 +1,13 @@
+Error: Failed to lookup view "pages/index.ejs" in views directory "C:\Users\User\Documents\NodeWindows\views"
+    at Function.render (C:\Users\User\Documents\GitHub\shellapp\node_modules\express\lib\application.js:580:17)
+    at ServerResponse.render (C:\Users\User\Documents\GitHub\shellapp\node_modules\express\lib\response.js:1012:7)
+    at app.get (C:\Users\User\Documents\GitHub\shellapp\app.js:15:7)
+    at Layer.handle [as handle_request] (C:\Users\User\Documents\GitHub\shellapp\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\User\Documents\GitHub\shellapp\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\User\Documents\GitHub\shellapp\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\User\Documents\GitHub\shellapp\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\User\Documents\GitHub\shellapp\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\User\Documents\GitHub\shellapp\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\User\Documents\GitHub\shellapp\node_modules\express\lib\router\index.js:275:10)
+{ [Error: ORA-12514: TNS:listener does not currently know of service requested in connect descriptor] errorNum: 12514, offset: 0 }
+Error: ORA-12514: TNS:listener does not currently know of service requested in connect descriptor
