@@ -46,3 +46,47 @@
 2020-10-23 14:44:29 - Send SIGINT 6032
 2020-10-23 14:44:29 - SIGINT to 6032 failed - Killing as fallback
 2020-10-23 14:44:29 - Finished shellapp.exe
+2020-10-26 09:14:17 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\Users\User\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file C:\Users\User\Documents\GitHub\shellapp\app.js --scriptoptions= --log "Shell App wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2020-10-26 09:14:18 - Started 5768
+2020-10-26 09:14:19 - Stopping shellapp.exe
+2020-10-26 09:14:19 - ProcessKill 5768
+2020-10-26 09:14:22 - Shutdown exception
+Message:The remote procedure call failed. (Exception from HRESULT: 0x800706BE)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementObjectCollection.ManagementObjectEnumerator.MoveNext()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2020-10-26 09:15:42 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\Users\User\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file C:\Users\User\Documents\GitHub\shellapp\app.js --scriptoptions= --log "Shell App wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2020-10-26 09:15:43 - Started 6132
+2020-10-26 12:51:17 - Stopping shellapp.exe
+2020-10-26 12:51:17 - ProcessKill 6132
+2020-10-26 12:51:21 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2020-10-26 12:52:28 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\Users\User\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file C:\Users\User\Documents\GitHub\shellapp\app.js --scriptoptions= --log "Shell App wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2020-10-26 12:52:29 - Started 5860
+2020-10-26 16:45:13 - Stopping shellapp.exe
+2020-10-26 16:45:13 - ProcessKill 5860
+2020-10-26 16:45:13 - Found child process: 5868 Name: conhost.exe
+2020-10-26 16:45:13 - Found child process: 6608 Name: node.exe
+2020-10-26 16:45:13 - Stopping process 5868
+2020-10-26 16:45:13 - Send SIGINT 5868
+2020-10-26 16:45:13 - SIGINT to 5868 failed - Killing as fallback
+2020-10-26 16:45:13 - Stopping process 6608
+2020-10-26 16:45:13 - Send SIGINT 6608
+2020-10-26 16:45:13 - SIGINT to 6608 failed - Killing as fallback
+2020-10-26 16:45:13 - Stopping process 5860
+2020-10-26 16:45:13 - Send SIGINT 5860
+2020-10-26 16:45:13 - SIGINT to 5860 failed - Killing as fallback
+2020-10-26 16:45:13 - Finished shellapp.exe

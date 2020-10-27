@@ -24,11 +24,11 @@ app.post("/check", (req, res) => {
   let duser = req.body.Username;
   let pass = req.body.Password;
   let db = req.body.Database;
-  // db = db.toUpperCase();
-  // let dbStr = `localhost/${db}`;
+  db = db.toUpperCase();
+  let dbStr = `localhost/${db}`;
   let errS = null;
 
-  //console.log(dbStr);
+  console.log(dbStr);
 
   oracledb.outFormat = oracledb.OUT_FORMAT_OBJECT;
 
@@ -39,7 +39,7 @@ app.post("/check", (req, res) => {
       connection = await oracledb.getConnection({
         user: duser,
         password: pass,
-        connectString: "localhost/XEPDB1",
+        connectString: dbStr,
       });
 
       console.log("Log in successfull");
